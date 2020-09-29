@@ -124,12 +124,12 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.0-pre2" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\XFEContactsSample\XFEContactsSample.csproj">
-      <Project>{8E34A346-CA75-4FCD-A38B-F1B570149033}</Project>
+      <Project>{D6F1CC02-4C2F-4791-95D3-8BCFD5BC67F1}</Project>
       <Name>XFEContactsSample</Name>
     </ProjectReference>
   </ItemGroup>
